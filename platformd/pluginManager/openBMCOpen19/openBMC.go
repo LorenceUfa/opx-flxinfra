@@ -285,3 +285,7 @@ func (driver *openBMCOpen19Driver) GetLedState(ledId int32) (pluginCommon.LedSta
 func (driver *openBMCOpen19Driver) GetAllLedState(states []pluginCommon.LedState, cnt int) error {
 	return errors.New("Not supported")
 }
+
+func (driver *openBMCOpen19Driver) GetSfpPortMap() ([]pluginCommon.SfpState, int) {
+	return nil, 0
+}
