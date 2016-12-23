@@ -22,3 +22,10 @@ _testmain.go
 *.exe
 *.test
 *.prof
+*.swp
+
+# Ignore auto generated thrift files
+fMgrd/rpc/fMgrd.thrift
+platformd/rpc/platformd.thrift
+sysd/rpc/sysd.thrift
+notifierd/rpc/notifierd.thrift
